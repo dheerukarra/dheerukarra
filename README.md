@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Dheeraj Reddy Karra</h1>
-<h3 align="center">A passionate Python developer</h3>
+<h3 align="center">A passionate Software developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dheerukarra&label=Profile%20views&color=0e75b6&style=flat" alt="dheerukarra" /> </p>
-
-- 🌱 I’m currently learning **Flask**
 
 - 📫 How to reach me **dheerajreddy.karra@gmail.com**
 

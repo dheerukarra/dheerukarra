@@ -1,17 +1,77 @@
-<h1 align="center">Hi 👋, I'm Dheeraj Reddy Karra</h1>
-<h3 align="center">A passionate software developer</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dheerukarra&label=Profile%20views&color=0e75b6&style=flat" alt="dheerukarra" /> </p>
+<img src="assets/hero.svg" alt="A toy loss surface: plain gradient descent gets stuck in a local minimum while momentum reaches the global minimum labelled AI-native engineer. Dheeraj Reddy Karra, automation tester turned AI-native engineer." width="100%"/>
 
-- 📫 How to reach me **dheerajreddy.karra@gmail.com**
+<br/>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/dheeraj-reddy-karra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dheeraj-reddy-karra" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/dheerukarra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="dheerukarra" height="30" width="40" /></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dheeraj--reddy--karra-fe9f6d?style=for-the-badge&logo=linkedin&logoColor=070512&labelColor=0e0a22)](https://www.linkedin.com/in/dheeraj-reddy-karra)
+[![HackerRank](https://img.shields.io/badge/HackerRank-dheerukarra-de4968?style=for-the-badge&logo=hackerrank&logoColor=fbf1de&labelColor=0e0a22)](https://www.hackerrank.com/dheerukarra)
+[![Email](https://img.shields.io/badge/Email-get%20in%20touch-8c2981?style=for-the-badge&logo=gmail&logoColor=fbf1de&labelColor=0e0a22)](mailto:dheerajreddy.karra@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-live%20on%20AWS-6fd3ff?style=for-the-badge&logo=awsamplify&logoColor=070512&labelColor=0e0a22)](https://main.d20iokpmvk0ua7.amplifyapp.com/)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+<br/>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=dheerukarra&show_icons=true&locale=en&layout=compact" alt="dheerukarra" /></p>
+<img src="assets/terminal.svg" alt="Terminal session: whoami, education, projects and what I am working on now" width="100%"/>
+
+<br/><br/>
+
+<img src="assets/skills.svg" alt="My skills as a rotating 3D embedding space with four clusters: AI and vibe coding, testing and QA, data science and ML, languages and delivery" width="100%"/>
+
+</div>
+
+<br/>
+
+## Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/dheerukarra/jobai"><img src="assets/card_jobai.svg" alt="jobai: self-hosted job-search automation. Discovery and LLM gateway work today; scoring, tailoring and review are planned." width="100%"/></a>
+
+<sub>Early development. Discovery and the LLM gateway work; the rest is planned.</sub><br/>
+<sub><a href="https://github.com/dheerukarra/jobai">Repository</a></sub>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/dheerukarra/dheeraj-aws-portfolio"><img src="assets/card_portfolio.svg" alt="dheeraj-aws-portfolio: a 3D three.js portfolio deployed on AWS Amplify" width="100%"/></a>
+
+<sub>Twelve interactive three.js scenes, deployed from GitHub to AWS Amplify.</sub><br/>
+<sub><a href="https://github.com/dheerukarra/dheeraj-aws-portfolio">Repository</a> · <a href="https://main.d20iokpmvk0ua7.amplifyapp.com/">Live site</a></sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/dheerukarra/polybot"><img src="assets/card_polybot.svg" alt="polybot: paper-trading bot for Polymarket prediction markets" width="100%"/></a>
+
+<sub>Paper trading only. No real money is ever placed.</sub><br/>
+<sub><a href="https://github.com/dheerukarra/polybot">Repository</a></sub>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/dheerukarra/python-learning-platform"><img src="assets/card_pylearn.svg" alt="python-learning-platform: learn Python by coding in the browser with Pyodide" width="100%"/></a>
+
+<sub>Code runs client-side via Pyodide, with auto-graded tests, XP and badges.</sub><br/>
+<sub><a href="https://github.com/dheerukarra/python-learning-platform">Repository</a> · <a href="https://python-learning-platform.netlify.app">Live demo</a></sub>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+<img src="assets/career.svg" alt="Career as a git log: automation testing roles from 02/2023, B.S. Computer Science 12/2023, M.S. Data Science and AI expected 05/2027" width="100%"/>
+
+<br/>
+
+<img src="assets/footer.svg" alt="Next epoch: let's build something" width="100%"/>
+
+<sub>The loss surface and the skills embedding are toy illustrations, not real model output.</sub>
+
+</div>

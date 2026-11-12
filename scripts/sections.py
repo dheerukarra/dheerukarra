@@ -167,13 +167,13 @@ def career():
     LY = 190
     # (months since 02/2023, id, date, message, detail, side, colour)
     items = [
-        (0, "c01", "02/2023", "join ICloud Technologies", "Automation Tester · Selenium, Cypress", "up", ICE),
-        (10, "c02", "12/2023", "B.S. Computer Science", "cum laude · 3.51 GPA · Dean's List", "down", PEACH),
-        (22, "c03", "12/2024", "join VSquare IT Inc.", "Automation Tester · Java, Selenium", "up", ICE),
-        (27, "c04", "05/2025", "wrap up testing roles", "two years of automation testing", "down", LIME),
-        (51, "HEAD", "05/2027", "M.S. Data Science & AI", "University of Central Missouri · expected", "up", MAGENTA),
+        (0, "c01", "12/2023", "join ICloud Technologies", "Automation Tester · to 11/2024", "up", ICE),
+        (0, "c02", "12/2023", "B.S. Computer Science", "cum laude · 3.51 GPA · Dean's List", "down", PEACH),
+        (12, "c03", "12/2024", "join VSquare IT Inc.", "Automation Tester · Java, Selenium", "up", ICE),
+        (17, "c04", "05/2025", "wrap up testing roles", "automation testing chapter complete", "down", LIME),
+        (41, "HEAD", "05/2027", "M.S. Data Science & AI", "University of Central Missouri · expected", "up", MAGENTA),
     ]
-    x_of = lambda m: 110 + 1060 * m / 51
+    x_of = lambda m: 110 + 1060 * m / 41
     defs = (
         f'<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{PEACH}" stop-opacity=".6"/><stop offset=".5" stop-color="{PLUM}" stop-opacity=".2"/><stop offset="1" stop-color="{ICE}" stop-opacity=".45"/></linearGradient>'
         f'<linearGradient id="trunk" x1="0" x2="1"><stop offset="0" stop-color="{ICE}"/><stop offset=".5" stop-color="{PEACH}"/><stop offset="1" stop-color="{MAGENTA}"/></linearGradient>'
@@ -181,18 +181,18 @@ def career():
     b = [f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="18" fill="{PANEL}" stroke="url(#edge)" stroke-width="1.5"/>']
     b.append(f'<text x="40" y="52" font-family="{MONO}" font-size="18" fill="{PEACH}" letter-spacing="1" textLength="250" lengthAdjust="spacingAndGlyphs">$ git log --graph</text>')
     # trunk draws in once, then stays
-    x0, x1 = x_of(0), x_of(51)
+    x0, x1 = x_of(0), x_of(41)
     L = x1 - x0
     b.append(f'<line x1="{n(x0)}" y1="{LY}" x2="{n(x1)}" y2="{LY}" stroke="url(#trunk)" stroke-width="4" stroke-linecap="round" stroke-dasharray="{n(L)}" stroke-dashoffset="{n(L)}">{A("stroke-dashoffset", f"{n(L)};0", 2.4, begin="0.2s", fill="freeze", repeat=None, calc="spline", keytimes=[0, 1], splines=".4 0 .2 1")}</line>')
     # "now" branch: dashed arc from 05/2025 to HEAD carrying the current projects
-    xa, xb = x_of(27), x_of(51)
+    xa, xb = x_of(17), x_of(41)
     b.append(f'<path d="M{n(xa)} {LY}C{n(xa + 120)} {LY + 70} {n(xb - 120)} {LY + 70} {n(xb)} {LY}" fill="none" stroke="{MAGENTA}" stroke-width="2" stroke-dasharray="6 7" opacity=".9">{A("stroke-dashoffset", "0;-26", 1.2)}</path>')
     b.append(f'<text x="{n(xb + 10)}" y="{LY + 80}" text-anchor="end" font-family="{MONO}" font-size="15" fill="{MAGENTA}" textLength="400" lengthAdjust="spacingAndGlyphs">branch: now · jobai · polybot · PyLearn · 3D portfolio</text>')
     # packet travelling along the trunk
     b.append(f'<circle r="5" fill="{WHITE}"><animateMotion dur="7s" begin="2.4s" repeatCount="indefinite" path="M{n(x0)} {LY}L{n(x1)} {LY}"/>{A("opacity", "0;1;1;0", 7, begin="2.4s", keytimes=[0, .05, .95, 1])}</circle>')
     for i, (m, cid, date, msg, detail, side, col) in enumerate(items):
         x = x_of(m)
-        t0 = 0.4 + m / 51 * 2.0
+        t0 = 0.4 + m / 41 * 2.0
         sgn = -1 if side == "up" else 1
         block = (
             f'<line x1="{n(x)}" y1="{LY}" x2="{n(x)}" y2="{n(LY + sgn * 30)}" stroke="{col}" stroke-opacity=".7"/>'
@@ -204,7 +204,9 @@ def career():
         ta = "middle"
         if m == 0:
             ta, ax = "start", n(x - 12)
-        if m == 51:
+        if m == 12:
+            ta, ax = "start", n(x - 12)
+        if m == 41:
             ta, ax = "end", n(x + 12)
         base = LY + sgn * 44 + (-60 if sgn < 0 else 20)
         block += (
@@ -213,7 +215,7 @@ def career():
             f'<text x="{ax}" y="{base + 72}" text-anchor="{ta}" font-family="{MONO}" font-size="14" fill="{MUTED}" textLength="{n(len(detail) * 8.4)}" lengthAdjust="spacingAndGlyphs">{esc(detail)}</text>'
         )
         b.append(fade_in(block, n(t0, 2), 0.7, rise=10 * sgn))
-    svg("career.svg", W, H, "".join(b), defs, "Career as a git log: automation testing roles from 02/2023, B.S. Computer Science 12/2023, M.S. Data Science and AI expected 05/2027")
+    svg("career.svg", W, H, "".join(b), defs, "Career as a git log: automation testing roles from 12/2023, B.S. Computer Science 12/2023, M.S. Data Science and AI expected 05/2027")
 
 
 # ------------------------------------------------------------------ footer wave

@@ -66,7 +66,7 @@
 
 <div align="center">
 
-<img src="assets/career.svg" alt="Career as a git log: automation testing roles from 02/2023, B.S. Computer Science 12/2023, M.S. Data Science and AI expected 05/2027" width="100%"/>
+<img src="assets/career.svg" alt="Career as a git log: automation testing roles from 12/2023, B.S. Computer Science 12/2023, M.S. Data Science and AI expected 05/2027" width="100%"/>
 
 <br/>
 

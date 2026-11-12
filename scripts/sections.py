@@ -167,8 +167,8 @@ def career():
     LY = 190
     # (months since 02/2023, id, date, message, detail, side, colour)
     items = [
-        (0, "c01", "12/2023", "join ICloud Technologies", "Automation Tester · to 11/2024", "up", ICE),
-        (0, "c02", "12/2023", "B.S. Computer Science", "cum laude · 3.51 GPA · Dean's List", "down", PEACH),
+        (0, "c01", "12/2023", "B.S. Computer Science", "cum laude · 3.51 GPA · Dean's List", "down", PEACH),
+        (2, "c02", "02/2024", "join ICloud Corp", "Automation Tester · to 11/24", "up", ICE),
         (12, "c03", "12/2024", "join VSquare IT Inc.", "Automation Tester · Java, Selenium", "up", ICE),
         (17, "c04", "05/2025", "wrap up testing roles", "automation testing chapter complete", "down", LIME),
         (41, "HEAD", "05/2027", "M.S. Data Science & AI", "University of Central Missouri · expected", "up", MAGENTA),
@@ -204,7 +204,7 @@ def career():
         ta = "middle"
         if m == 0:
             ta, ax = "start", n(x - 12)
-        if m == 12:
+        if m in (2, 12):
             ta, ax = "start", n(x - 12)
         if m == 41:
             ta, ax = "end", n(x + 12)
@@ -215,7 +215,7 @@ def career():
             f'<text x="{ax}" y="{base + 72}" text-anchor="{ta}" font-family="{MONO}" font-size="14" fill="{MUTED}" textLength="{n(len(detail) * 8.4)}" lengthAdjust="spacingAndGlyphs">{esc(detail)}</text>'
         )
         b.append(fade_in(block, n(t0, 2), 0.7, rise=10 * sgn))
-    svg("career.svg", W, H, "".join(b), defs, "Career as a git log: automation testing roles from 12/2023, B.S. Computer Science 12/2023, M.S. Data Science and AI expected 05/2027")
+    svg("career.svg", W, H, "".join(b), defs, "Career as a git log: B.S. Computer Science 12/2023, automation testing roles from 02/2024, M.S. Data Science and AI expected 05/2027")
 
 
 # ------------------------------------------------------------------ footer wave
